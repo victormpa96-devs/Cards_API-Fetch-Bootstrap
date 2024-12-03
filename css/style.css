@@ -1,0 +1,16 @@
+.scrolling-text {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: scrolling 7s linear infinite;
+  color: white;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
